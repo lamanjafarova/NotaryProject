@@ -1,0 +1,41 @@
+#header{
+    background-color: #fee2b3;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 90px;
+            .logo{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bolder;
+                    font-size: 40px;
+                    font-family: 'Playfair Display', serif;
+                }
+            }
+            nav{
+               ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 30px;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: rgba(0, 0, 0, 0.7);
+                        font-size: 20px;
+                        &.active{
+                            color: black;
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}

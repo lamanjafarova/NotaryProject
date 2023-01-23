@@ -1,0 +1,16 @@
+#detail{
+    .container{
+        .details{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            img{
+                width: 300px;
+                height: 300px;
+            }
+            .text{
+                padding: 30px 0;
+            }
+        }
+    }
+}

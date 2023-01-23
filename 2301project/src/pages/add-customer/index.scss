@@ -1,0 +1,38 @@
+.add_customer{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Playfair Display', serif;
+    color: #364d59;
+}
+.container{
+    .form{
+        padding: 50px 0;
+        text-align: center;
+       .input{
+        display: block;
+        margin-bottom: 20px;
+        input{
+            padding: 20px 20px;
+            width: 35%;
+            border-radius: 5px;
+            border: none;
+            border-bottom: 1px solid #fee2b3;
+          }
+       }
+       .formikBtn{
+        width: 35%;
+        height: 50px;
+        background-color: #fee2b3;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 20px;
+        transition: all 0.4s;
+        font-family: 'Playfair Display', serif;
+        &:hover{
+            background-color: #eea11d;
+            cursor: pointer;
+        }
+       }
+    }
+}

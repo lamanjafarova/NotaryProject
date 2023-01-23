@@ -1,0 +1,59 @@
+#home{
+    .home-img{
+        position: relative;
+        z-index: -1;
+        width: 100%;
+    }
+    .container{
+        .homepage{
+            position: absolute;
+            z-index: 1;
+            top: 40%;
+            left: 20%;
+            .public-h1{
+                font-size: 70px;
+                font-family: 'Playfair Display', serif;
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .p-public{
+                color: #fff;
+                width: 400px;
+                line-height: 25px;
+                font-size: 20px;
+            }
+        }
+        .practices-areas{
+            margin: 60px 0;
+            .practice_text{
+                font-family: 'Playfair Display', serif;
+                color: #000000;
+                text-align: center;
+                font-size: 32px;
+                span{
+                    color: #364d59;
+                }
+            }
+            .practice_p{
+                font-family: 'Playfair Display', serif;
+                color: #364d59;
+                text-align: center;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+        .aboutSection{
+            margin: 70px 0;
+        }
+        .happyCustomers{
+            margin: 70px 0;
+            .happy{
+                text-align: center;
+                font-size: 32px;
+                color: #364d59;
+                font-family: 'Playfair Display', serif;
+                margin: 40px 0;
+            }
+        }
+    }
+}
